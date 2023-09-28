@@ -1,0 +1,165 @@
+// Định nghĩa font-face cho 'NaN Hyena Sunset'
+@font-face {
+  font-family: 'NaN Hyena Sunset';
+  src: url("/fonts/NaN-Hyena-Sunset-Bold.otf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'NaN Hyena Sunset';
+  src: url("/fonts/NaN-Hyena-Sunset-SemiBold.otf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'NaN Hyena Sunset';
+  src: url("/fonts/NaN-Hyena-Sunset-Medium.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'NaN Hyena Sunset';
+  src: url("/fonts/NaN-Hyena-Sunset-Regular.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'NaN Hyena Sunset';
+  src: url("/fonts/NaN-Hyena-Sunset-Thin.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'NaN Hyena Sunset';
+  src: url("/fonts/NaN-Hyena-Sunset-Light.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'NaN Hyena Sunset';
+  src: url("/fonts/NaN-Hyena-Sunset-ExtraLight.otf");
+  font-weight: 100;
+}
+
+// Định nghĩa font-face cho 'NaN Hyena Sunrise'
+@font-face {
+  font-family: 'NaN Hyena Sunrise';
+  src: url("/fonts/NaN-Hyena-Sunrise-Ultra.otf");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'NaN Hyena Sunrise';
+  src: url("/fonts/NaN-Hyena-Sunrise-Bold.otf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'NaN Hyena Sunrise';
+  src: url("/fonts/NaN-Hyena-Sunrise-SemiBold.otf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'NaN Hyena Sunrise';
+  src: url("/fonts/NaN-Hyena-Sunrise-Medium.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'NaN Hyena Sunrise';
+  src: url("/fonts/NaN-Hyena-Sunrise-Regular.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'NaN Hyena Sunrise';
+  src: url("/fonts/NaN-Hyena-Sunrise-Thin.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'NaN Hyena Sunrise';
+  src: url("/fonts/NaN-Hyena-Sunrise-Light.otf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'NaN Hyena Sunrise';
+  src: url("/fonts/NaN-Hyena-Sunrise-ExtraLight.otf");
+  font-weight: 100;
+}
+
+// Định nghĩa font-face cho 'NaN Hyena Noon'
+@font-face {
+  font-family: 'NaN Hyena Noon';
+  src: url("/fonts/NaN-Hyena-Noon-Black.otf");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'NaN Hyena Noon';
+  src: url("/fonts/NaN-Hyena-Noon-Bold.otf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'NaN Hyena Noon';
+  src: url("/fonts/NaN-Hyena-Noon-SemiBold.otf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'NaN Hyena Noon';
+  src: url("/fonts/NaN-Hyena-Noon-Medium.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'NaN Hyena Noon';
+  src: url("/fonts/NaN-Hyena-Noon-Regular.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'NaN Hyena Noon';
+  src: url("/fonts/NaN-Hyena-Noon-Thin.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'NaN Hyena Noon';
+  src: url("/fonts/NaN-Hyena-Noon-Light.otf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'NaN Hyena Noon';
+  src: url("/fonts/NaN-Hyena-Noon-ExtraLight.otf");
+  font-weight: 100;
+}
+
+// Định nghĩa font-face cho 'LeOsler'
+@font-face {
+  font-family: 'LeOsler';
+  src: url("/fonts/SVN-LeOsler.otf");
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url("/fonts/Manrope-Bold.ttf");
+}
+// Định nghĩa CSS cho HTML và body
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'NaN Hyena Sunset', sans-serif;
+  font-size: 16px;
+  overflow-x: hidden;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+}
+
+* {
+  box-sizing: border-box;
+}
