@@ -47,10 +47,8 @@ const User: React.FC = () => {
 		if (!value?.id && !value?.username && value?.role == null) {
 			setDataSource(data);
 		} else {
-			console.log(value?.role);
 			var newSearch = data?.filter((item: User) => {
 				if (value?.role != null && !value?.id && !value?.username) {
-					console.log("f");
 					return item?.role == value?.role;
 				}
 				if (value?.role != null && value?.id && !value?.username) {
